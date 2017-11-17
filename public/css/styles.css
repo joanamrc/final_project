@@ -1,0 +1,27 @@
+.navbar {
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+}
+.ThumbSection {
+	margin: 50px 0;
+}
+.thumbnail .caption {
+	text-align: center;
+}
+.Footer {
+	padding: 50px 0;
+    background-color: #000000;
+    margin-top: 50px;
+}
+.sticky-sidebar {
+	position: fixed;	
+}
+.ShowProducts .container {
+	margin-top: 50px;
+}
+@media (min-width: 768px){
+	.navbar-collapse .navbar-nav {
+	    float: right ;
+	}
+
+}
