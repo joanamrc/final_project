@@ -1,5 +1,6 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 import { Grid, Row, Col, Thumbnail, Button, Media, Nav, NavItem } from 'react-bootstrap'
+import Quantity from './qty.js'
 import img4 from "../img/masnou.jpg"
 
 
@@ -25,9 +26,15 @@ const SingleProduct = () => (
 		     				<h4>XXX €</h4>	
 		     			</Col>
 		     		</Row>
-			          <p>
-			            <Button bsStyle="primary">Button</Button>
-			          </p>
+		     		<Row>
+		     			<Col xs={2} md={2}>
+				   			<Quantity />	
+		     			</Col>
+		     			<Col xs={4} md={4}>
+				   			<Button bsStyle="primary">Add to cart</Button>	
+		     			</Col>
+		     		</Row>
+			          
 		     	</Col>
         	</Row>
         </Grid>  	
@@ -35,4 +42,5 @@ const SingleProduct = () => (
 )
 
 export default SingleProduct
+
 
